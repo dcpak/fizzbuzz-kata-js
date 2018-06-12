@@ -1,2 +1,3 @@
-module.exports = function fizzbuzz(number) {
-};
+function fizzBuzz(){
+  return ""
+}
