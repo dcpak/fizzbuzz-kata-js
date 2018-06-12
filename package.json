@@ -7,9 +7,9 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "test": "jest"
+    "test": "jasmine"
   },
   "devDependencies": {
-    "jest": "^23.1.0"
+    "jasmine": "^3.1.0"
   }
 }
