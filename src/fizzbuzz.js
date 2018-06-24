@@ -1,2 +1,2 @@
-module.exports = function fizzbuzz(number) {
+function fizzbuzz(number) {
 };

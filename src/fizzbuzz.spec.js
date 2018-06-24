@@ -1,4 +1,3 @@
-const fizzbuzz = require('./fizzbuzz');
 
 describe('Fizz Buzz', function () {
 

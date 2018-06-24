@@ -5,11 +5,17 @@
     "type": "git",
     "url": "git@github.com:Pragmatists/fizzbuzz-kata-js.git"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "karma start karma.conf.js"
   },
   "devDependencies": {
-    "jest": "^23.1.0"
+    "eslint": "1.10.3",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.19",
+    "karma-jasmine": "0.3.7",
+    "karma-phantomjs-launcher": "1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "2.1.4"
   }
 }
