@@ -1,6 +1,13 @@
 FizzBuzz Kata
 ==================
 
+## Build
+
+`npm install`
+`npm run jest`
+
+## Kata rules
+
 "Fizz Buzz" to gra towarzyska, w której gracze liczą po kolei: 1, 2...
 
 Ale... gdy liczba jest podzielna przez 3, zamiast tej liczby należy powiedzieć "Fizz".
@@ -16,8 +23,8 @@ Zadanie składa się z dwóch części:
 1. Utwórz funkcję, która przyjmuje liczbę naturalną większą od 0 i zwraca dla niej odpowiedź
    w grze Fizz Buzz. Np. dla liczby `3` powinna zwrócić `Fizz`.
 
-1. Utwórz funkcję, który wypisuje odpowiedzi (zwraca Stringa) dla liczb od 1 do 100 oddzielone przecinkami.
-   Np. dla liczby `3` powinna zwrócić `1,2,Fizz` (bez przecinka na końcu).
+1. Utwórz funkcję, który wypisuje odpowiedzi dla liczb od 1 do 100 oddzielone przecinkami.
+   Np. dla liczby `3` powinna wyświetlić `1,2,Fizz` (bez przecinka na końcu).
 
 #### Dodatkowe opcjonalne wymagania:
 
