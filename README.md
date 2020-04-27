@@ -4,7 +4,7 @@ FizzBuzz Kata
 ## Build
 
 `npm install`
-`npm run jest`
+`npm run test`
 
 ## Kata rules
 
