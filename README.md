@@ -50,3 +50,9 @@ You task is to:
 1. "Fizz" returned also when number contains digit 3
 2. "Buzz" returned also when number contains digit 5.
 3. "Fizz" and "Buzz" when number is multiple or contains digit: 7 i 9.
+
+
+## Good to know
+
+*Jest assertions:*
+https://jestjs.io/docs/en/expect.html#methods
