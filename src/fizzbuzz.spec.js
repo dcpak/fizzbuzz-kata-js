@@ -24,7 +24,19 @@ describe('check FizzBuzz from 1 to 20', function () {
     [18, 'Fizz'],
     [19, 19],
     [20, 'Buzz'],
+    [31, 'Fizz'],
+    [32, 'Fizz'],
+    [33, 'Fizz'],
+    [34, 'Fizz'],
+    [35, 'FizzBuzz'],
+    [36, 'Fizz'],
+    [48, 'Fizz'],
+    [49, 49],
+    [50, 'Buzz'],
     [51, 'FizzBuzz'],
+    [52, 'Buzz'],
+    [56, 'Buzz'],
+    [57, 'FizzBuzz']
   ].forEach(function(params) {
     it('answers ' + params[1] + ' for ' + params[0], function() {
       expect(fizzbuzz(params[0])).toEqual(params[1]);
