@@ -36,7 +36,7 @@ describe('check FizzBuzz from 1 to 20', function () {
     [50, 'Buzz'],
     [51, 'FizzBuzz'],
     [52, 'Buzz'],
-    [56, 'Buzz'],
+    [56, 'BuzzBar'],
     [57, 'FizzBuzzBar']
   ].forEach(function(params) {
     it('answers ' + params[1] + ' for ' + params[0], function() {
